@@ -144,10 +144,6 @@ ul.nav-list li:first-child {
   margin-left: 10px;
 }
 
-.project:hover {
-  opacity: .5;
-}
-
 .experience {
   margin: 0 3px;
   padding: 10px 0;
