@@ -21,6 +21,10 @@ app.get('/', function(req, res) {
   res.render('site/index');
 });
 
+app.get('/experience', function(req, res) {
+  res.render('site/experience');
+});
+
 server.listen(process.env.PORT || 3000, function() {
   console.log('server started');
 });
