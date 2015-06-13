@@ -23,7 +23,7 @@ ul {
 }
 
 a, a:link, a:hover, a:visited {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
