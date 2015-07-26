@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
 }
 td {
-  padding: 2px 0;
+  padding: 3px 0;
 }
 p, ul {
   font-size: 16px;
@@ -83,7 +83,7 @@ ul.nav-list {
   li {
     display: inline-block;
     list-style-type: none;
-    margin: 0 15px;
+    margin: 0 10px;
     vertical-align: top;
   }
   li:first-child {
@@ -200,7 +200,7 @@ ul.nav-list {
     margin-left: 0;
   }
   ul.nav-list {
-    margin-top: 1em;
+    margin-top: 0.5em;
     li:first-child {
       margin-left: 0;
     }
