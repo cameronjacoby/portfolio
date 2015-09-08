@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5;
 }
@@ -28,7 +28,7 @@ a, a:active, a:link, a:visited {
 }
 
 a:hover {
-  color: #ff6c6c;
+  color: #f90d50;
 }
 
 .left {
@@ -48,7 +48,7 @@ a.link-no-hover:hover {
 }
 
 a.link-emphasized, a.link-emphasized:active, a.link-emphasized:link, a.link-emphasized:visited {
-  color: #ff6c6c;
+  color: #f90d50;
 }
 
 .container {
