@@ -72,6 +72,7 @@ ul.nav-list {
 
 ul.nav-list li {
   display: inline-block;
+  list-style-type: none;
   margin: 0 10px;
   vertical-align: top;
 }
@@ -116,6 +117,19 @@ ul.nav-list li:first-child {
 }
 
 @media screen and (max-width: 740px) {
+  .header-section {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .header-section:nth-child(2) {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  ul.nav-list li {
+    display: block;
+    margin: 0;
+  }
   .ipad {
     display: none;
   }
