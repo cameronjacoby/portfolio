@@ -103,8 +103,42 @@ ul.nav-list li:first-child {
   opacity: 0.6;
 }
 
-.ipad, .iphone {
+.desktop {
+  padding: 4% 2% 2% 2%;
+}
+
+.ipad {
   display: none;
+  padding: 5% 8%;
+}
+
+.iphone {
+  display: none;
+  padding: 8% 12%;
+}
+
+.bg-pink {
+  background-color: #fce7e0;
+}
+
+.bg-green {
+  background-color: #9fdccd;
+}
+
+.bg-blue {
+  background-color: #bae4e3;
+}
+
+.bg-orange {
+  background-color: #e7af41;
+}
+
+.bg-peach {
+  background-color: #f0dac3;
+}
+
+.bg-purple {
+  background-color: #d3cfe0;
 }
 
 @media screen and (max-width: 1024px) {

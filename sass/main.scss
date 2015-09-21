@@ -2,7 +2,13 @@
 
 // variables
 $color-black: #333333;
+$color-blue: #bae4e3;
+$color-green: #9fdccd;
 $color-grey: #d5d5d5;
+$color-orange: #e7af41;
+$color-peach: #f0dac3;
+$color-pink: #fce7e0;
+$color-purple: #d3cfe0;
 $color-red: #f90d50;
 
 // reset
@@ -103,9 +109,23 @@ ul.nav-list {
 .project:hover {
   opacity: 0.6;
 }
-.ipad, .iphone {
-  display: none;
+.desktop {
+  padding: 4% 2% 2% 2%;
 }
+.ipad {
+  display: none;
+  padding: 5% 8%;
+}
+.iphone {
+  display: none;
+  padding: 8% 12%;
+}
+.bg-pink { background-color: $color-pink; }
+.bg-green { background-color: $color-green; }
+.bg-blue { background-color: $color-blue; }
+.bg-orange { background-color: $color-orange; }
+.bg-peach { background-color: $color-peach; }
+.bg-purple { background-color: $color-purple; }
 
 // experience
 // .experience {
