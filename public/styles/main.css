@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
 }
 
+p {
+  margin: 0 0 15px 0;
+}
+
 a, a:focus {
   color: #333333;
   text-decoration: none;
@@ -28,6 +32,10 @@ a:hover {
 
 .no-margin {
   margin: 0;
+}
+
+.sm-margin {
+  margin: 0 0 5px 0;
 }
 
 .uppercase {
