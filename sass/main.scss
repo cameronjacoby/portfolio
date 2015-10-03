@@ -150,18 +150,6 @@ a:hover {
 .bg-peach { background-color: $color-peach; }
 .bg-purple { background-color: $color-purple; }
 
-// experience
-// .experience {
-//   margin: 0 3px;
-//   padding: 10px 0;
-//   td {
-//     vertical-align: top;
-//   }
-//   td:nth-child(2) {
-//     padding-left: 40px;
-//   }
-// }
-
 // media queries
 @media screen and (max-width: 1024px) {
   .desktop {
@@ -170,22 +158,6 @@ a:hover {
   .ipad {
     display: block;
   }
-  // .experience {
-  //   margin: 0 auto;
-  //   max-width: 450px;
-  // }
-  // .experience .col-50 {
-  //   width: 100%;
-  // }
-  // .experience .col-50:nth-child(odd) {
-  //   margin-right: 0;
-  // }
-  // .experience .col-50:nth-child(even) {
-  //   margin-left: 0;
-  // }
-  // .experience .col-50:nth-child(2) {
-  //   margin-top: 20px;
-  // }
 }
 @media screen and (max-width: 740px) {
   .header-section {
@@ -205,37 +177,25 @@ a:hover {
       margin: 0;
     }
   }
+  .col-50 {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .col-50:nth-child(odd) {
+    display: block;
+    margin: 0;
+  }
+  .col-50:nth-child(even) {
+    margin-left: 0;
+  }
   .ipad {
     display: none;
   }
   .iphone {
     display: block;
   }
-  // .experience {
-  //   margin: 0 3px;
-  //   max-width: none;
-  // }
 }
 @media screen and (max-width: 540px) {
-  // .header, .footer {
-  //   margin: 0;
-  //   padding: 30px 0;
-  // }
-  // .header-section, .project {
-  //   width: 100%;
-  // }
-  // .header-section:nth-child(odd), .project:nth-child(odd) {
-  //   margin-right: 0;
-  // }
-  // .header-section:nth-child(even), .project:nth-child(even) {
-  //   margin-left: 0;
-  // }
-  // ul.nav-list {
-  //   margin-top: 0.5em;
-  //   li:first-child {
-  //     margin-left: 0;
-  //   }
-  // }
   .project {
     margin: 10px 0;
     max-height: 500px;
@@ -248,9 +208,6 @@ a:hover {
   .project:nth-child(even) {
     margin-left: 0;
   }
-  // .experience {
-  //   margin: 0;
-  // }
 }
 @media screen and (max-width: 440px) {
   .project {

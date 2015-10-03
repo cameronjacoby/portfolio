@@ -204,6 +204,17 @@ a:hover {
     display: block;
     margin: 0;
   }
+  .col-50 {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .col-50:nth-child(odd) {
+    display: block;
+    margin: 0;
+  }
+  .col-50:nth-child(even) {
+    margin-left: 0;
+  }
   .ipad {
     display: none;
   }
