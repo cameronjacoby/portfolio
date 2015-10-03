@@ -112,17 +112,11 @@ a:hover {
 }
 
 .project {
-  cursor: pointer;
   display: inline-block;
   line-height: 1;
   margin: 10px -3px 10px 0;
   vertical-align: top;
   width: calc(50% - 10px);
-  transition: opacity 0.2s ease-out;
-  -webkit-transition: opacity 0.5s ease-out;
-  -moz-transition: opacity 0.2s ease-out;
-  -ms-transition: opacity 0.2s ease-out;
-  -o-transition: opacity 0.2s ease-out;
 }
 
 .project img {
@@ -135,10 +129,6 @@ a:hover {
 
 .project:nth-child(even) {
   margin-left: 10px;
-}
-
-.project:hover {
-  opacity: 0.6;
 }
 
 .desktop {
