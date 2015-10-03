@@ -24,6 +24,10 @@ app.get('/experience', function(req, res) {
   res.render('site/experience');
 });
 
+app.get('/contact', function(req, res) {
+  res.render('site/contact');
+});
+
 app.listen(process.env.PORT || 3000, function() {
   console.log('server started');
 });

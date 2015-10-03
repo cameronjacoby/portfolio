@@ -30,6 +30,10 @@ a:hover {
   margin: 0;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
@@ -82,6 +86,21 @@ a:hover {
 
 .nav-list li:first-child {
   margin-left: 0;
+}
+
+.col-50 {
+  display: inline-block;
+  margin: 10px -3px 10px 0;
+  vertical-align: top;
+  width: calc(50% - 10px);
+}
+
+.col-50:nth-child(odd) {
+  margin-right: 7px;
+}
+
+.col-50:nth-child(even) {
+  margin-left: 10px;
 }
 
 .project {
