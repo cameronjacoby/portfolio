@@ -30,21 +30,19 @@ a:hover {
   margin: 0;
 }
 
-.site-container {
+.wrapper {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 100%;
 }
 
-.page-content {
+.content {
   padding: 10px 0;
-  text-align: center;
 }
 
 .header, .footer {
-  margin: 0 12px;
-  padding: 40px 1px;
+  padding: 40px 0;
 }
 
 .header {
@@ -57,27 +55,32 @@ a:hover {
 
 .header-section {
   display: inline-block;
+  margin-right: -3px;
   vertical-align: top;
-  width: calc(50% - 15px);
+  width: calc(50% - 10px);
 }
 
-.header-section:nth-child(2) {
-  margin-left: 25px;
+.header-section:nth-child(odd) {
+  margin-right: 7px;
 }
 
-ul.nav-list {
+.header-section:nth-child(even) {
+  margin-left: 10px;
+}
+
+.nav-list {
   margin: 0;
   padding: 0;
 }
 
-ul.nav-list li {
+.nav-list li {
   display: inline-block;
   list-style-type: none;
   margin: 0 10px;
   vertical-align: top;
 }
 
-ul.nav-list li:first-child {
+.nav-list li:first-child {
   margin-left: 0;
 }
 
@@ -85,9 +88,9 @@ ul.nav-list li:first-child {
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  margin: 10px;
+  margin: 10px -3px 10px 0;
   vertical-align: top;
-  width: calc(50% - 25px);
+  width: calc(50% - 10px);
   transition: opacity 0.2s ease-out;
   -webkit-transition: opacity 0.5s ease-out;
   -moz-transition: opacity 0.2s ease-out;
@@ -97,6 +100,14 @@ ul.nav-list li:first-child {
 
 .project img {
   width: 100%;
+}
+
+.project:nth-child(odd) {
+  margin-right: 7px;
+}
+
+.project:nth-child(even) {
+  margin-left: 10px;
 }
 
 .project:hover {
@@ -152,15 +163,17 @@ ul.nav-list li:first-child {
 
 @media screen and (max-width: 740px) {
   .header-section {
-    display: block;
-    vertical-align: top;
+    margin-right: 0;
     width: 100%;
   }
-  .header-section:nth-child(2) {
+  .header-section:nth-child(odd) {
+    margin-right: 0;
+  }
+  .header-section:nth-child(even) {
     margin-top: 5px;
     margin-left: 0;
   }
-  ul.nav-list li {
+  .nav-list li {
     display: block;
     margin: 0;
   }
@@ -177,7 +190,13 @@ ul.nav-list li:first-child {
     margin: 10px 0;
     max-height: 500px;
     overflow: hidden;
-    width: calc(100% - 25px);
+    width: 100%;
+  }
+  .project:nth-child(odd) {
+    margin-right: 0;
+  }
+  .project:nth-child(even) {
+    margin-left: 0;
   }
 }
 
