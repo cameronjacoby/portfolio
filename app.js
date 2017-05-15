@@ -20,10 +20,6 @@ app.get('/', function(req, res) {
   res.render('site/index');
 });
 
-app.get('/experience', function(req, res) {
-  res.render('site/experience');
-});
-
 app.get('/contact', function(req, res) {
   res.render('site/contact');
 });
